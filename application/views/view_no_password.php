@@ -1,0 +1,2 @@
+F&uuml;r deinen Account existiert noch kein Passwort. Bitte generiere dir zuerst Ingame in Passwort, dieses kann dann hier zum Login verwendet werden.<br>
+<a href="<?php echo site_url('login'); ?>" title="Zur&uuml;ck zum Login">Zur&uuml;ck zum Login</a>
