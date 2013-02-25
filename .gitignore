@@ -1,0 +1,5 @@
+system/
+application/cache
+application/config
+application/core
+application/logs
