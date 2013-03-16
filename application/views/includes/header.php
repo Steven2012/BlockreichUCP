@@ -34,6 +34,15 @@
                 </ul>
             </li>
             <?php } ?>
+            <?php if($this->permissions->checkPerm('help') != false) { ?>
+            <li <?php if($this->uri->segment(1) == "help") echo 'class="active"'; ?>>
+                <a href="<?php echo site_url('help'); ?>">Hilfe</a>
+                <ul>
+                    <li><a href="<?php echo site_url('help/commands'); ?>">&bull; Befehlsliste</a></li>
+                    <li><a href="<?php echo site_url('help/faq'); ?>">&bull; H&auml;ufig gestellte Fragen</a></li>
+                </ul>
+            </li>
+            <?php } ?>
         </ul>
         <ul class="navright">
             <?php /* <li>

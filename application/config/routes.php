@@ -47,5 +47,8 @@ $route['tickets/ticket-(:num)/reply'] = 'tickets/replyticket/$1';
 $route['tickets/ticketsupport/ticket-(:num)'] = 'tickets/support_showticket/$1';
 $route['tickets/ticketsupport/ticket-(:num)/reply'] = 'tickets/support_replyticket/$1';
 
+$route['help/commands/new'] = 'help/newcommand';
+$route['help/faq/new'] = 'help/newfaq';
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

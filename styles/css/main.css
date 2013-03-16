@@ -38,6 +38,10 @@ a h1, a h2, a h3, a h4, a h5 {
     text-decoration: underline;
 }
 
+a, a:link, a:hover {
+    color: #c00000;
+}
+
 
 /* ALLGEMEIN */
 
@@ -447,4 +451,26 @@ a:hover#slideshow_button div {
 }
 #slideshow-box ul.sPics li img {
     border: #f00 2px solid;
+}
+
+.faq {
+    border: #888 2px solid;
+    background: rgba(0,0,0,0.5);
+    padding: 3px 5px;
+    margin-right: 10px;
+    border-radius: 2px;
+    webkit-border-radius: 2px;
+    moz-border-radius: 2px;
+    khtml-border-radius: 2px;
+}
+.faq .question {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-bottom: #FF0000 1px solid;
+}
+.faq p {
+    padding: 2px 5px;
+    margin-top: 10px;
+    font-style: italic;
 }
